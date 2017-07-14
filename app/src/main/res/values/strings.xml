@@ -1,0 +1,113 @@
+<resources>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY" translatable="false">l9RKIoN03Hpt19FcubtuUqEm0</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET" translatable="false">4RhvjX4LKFQ8QTGB4LjrQe0tdrf3mCW9cZmiUiHQxMjiawA4ma</string>
+
+    <string name="facebook_app_id" translatable="false">310767179344488</string>
+
+    <string name="app_name" translatable="false">No Pollen</string>
+    <string name="failed_google_auth">Auth failed</string>
+    <string name="failed_facebook_auth">Facebook Auth Failed</string>
+    <string name="failed_google_login">Failed log in into Google account</string>
+    <string name="email_error">Incorrect email</string>
+    <string name="password_error">Password must have at least 6 symbols</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="text_forecast">Forecast</string>
+    <string name="text_chat">Chat</string>
+    <string name="text_settings">Settings</string>
+    <string name="login_activity_label">Log in</string>
+    <string name="sign_in_button">Log in or Register</string>
+    <string name="notification_title">Pollen forecast</string>
+    <string name="profile_category">Profile</string>
+    <string name="log_out_button">Log out</string>
+    <string name="Moscow">Moscow</string>
+    <string name="NN">Nizhny Novgorod</string>
+    <string name="email_preference" translatable="false">email preference</string>
+    <string name="preference_screen" translatable="false">preference screen</string>
+    <string name="default_city" translatable="false">Moscow</string>
+    <string name="header_concentration">cbm</string>
+
+
+    <string name="tree">Tree</string>
+    <string name="weed">Weed</string>
+    <string name="spore">Spore</string>
+    <string name="cereal">Cereal</string>
+
+    <string name="general_background_tree">Tree general background</string>
+    <string name="general_background_weed">Weed general background</string>
+    <string name="general_background_cereal">Cereal general background</string>
+
+    <string name="general_background">General background</string>
+    <string name="alternaria">Alternaria</string>
+    <string name="cladosporium">Cladosporium</string>
+    <string name="mashroom">General level</string>
+    <string name="quinoa">Quinoa</string>
+    <string name="raqweed">Raqweed</string>
+    <string name="sagebrush">Sagebrush</string>
+    <string name="oak">Oak</string>
+    <string name="willow">Willow</string>
+    <string name="ash">Ash</string>
+    <string name="maple">Maple</string>
+    <string name="elm">Elm</string>
+    <string name="birch">Birch</string>
+    <string name="hazel">Hazel</string>
+    <string name="alder">Alder</string>
+    <string name="poplar">Poplar</string>
+    <string name="pine">Pine</string>
+    <string name="spruce">Spruce</string>
+    <string name="linden">Linden</string>
+    <string name="sorrel">Sorrel</string>
+    <string name="nettle">Nettle</string>
+    <string name="plantain">Plaintain</string>
+    <string name="change_password_preference" translatable="false">change password</string>
+    <string name="update_name_preference" translatable="false">update name</string>
+    <string name="preference_notification" translatable="false">notification</string>
+    <string name="preference_city" translatable="false">city</string>
+    <string name="preference_allergens" translatable="false">allergens</string>
+    <string name="message_before_exit">Click back again to exit</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_success">Reset success</string>
+    <string name="email_verification_message">Email verification sent</string>
+    <string name="success_log_in">Success log in</string>
+    <string name="nothing_level">Nothing</string>
+    <string name="extra_high_level">Extra high</string>
+    <string name="high_level">High</string>
+    <string name="medium_level">Medium</string>
+    <string name="low_level">Low</string>
+    <string name="undefined_level">Undefined</string>
+    <string name="city">City</string>
+    <string name="unknown_city">Unknown</string>
+    <string name="allergens">Allergens</string>
+    <string name="allergens_preference_summary">Choose your allergens</string>
+    <string name="notification">Notification</string>
+    <string name="enable_notification">Enable notification</string>
+    <string name="notification_summary">Receive when data updated</string>
+    <string name="email_preference_category">Email account</string>
+    <string name="change_password_dialog_title">Enter new password</string>
+    <string name="change_password_title">Change password</string>
+    <string name="update_name_dialog_title">Enter your name</string>
+    <string name="update_name_summary">If doesn\'t exist yet</string>
+    <string name="update_name_title">Enter name</string>
+    <string name="text_information">Information</string>
+    <string name="text_news">News</string>
+    <string name="text_about_pollen">About pollen</string>
+    <string name="text_children">Children</string>
+    <string name="text_clinic">Clinic</string>
+    <string name="text_beauty">Beauty</string>
+    <string name="text_life_without_pollen">Life without pollen</string>
+    <string name="text_recipes">Allergy-free recipes</string>
+    <string name="text_log_out">Log out</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="cancel">Cancel</string>
+    <string name="passwords_not_match">Passwords not match</string>
+    <string name="add_new_topic_title">Input name of topic</string>
+    <string name="add_new_topic_postivite_button">Add topic</string>
+    <string name="already_exist">Topic already exist</string>
+    <string name="send_message">Send</string>
+    <string name="message_text_hint">Write a message</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="no_allergens">Low level or no pollen in air. Have a nice day!</string>
+    <string name="logo_description">No Pollen logo image</string>
+</resources>

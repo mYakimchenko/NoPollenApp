@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/preference_screen">
+    <PreferenceCategory android:title="@string/profile_category">
+        <ListPreference
+            android:defaultValue="@string/default_city"
+            android:entries="@array/cities_entries"
+            android:entryValues="@array/cities"
+            android:icon="@drawable/city"
+            android:key="@string/preference_city"
+            android:summary="%s"
+            android:title="@string/city" />
+
+        <MultiSelectListPreference
+            android:defaultValue="@array/allergens"
+            android:entries="@array/allergens_entries"
+            android:entryValues="@array/allergens"
+            android:icon="@drawable/tree"
+            android:key="@string/preference_allergens"
+            android:summary="@string/allergens_preference_summary"
+            android:title="@string/allergens" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/notification">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/notification_preference"
+            android:key="@string/preference_notification"
+            android:summary="@string/notification_summary"
+            android:title="@string/enable_notification" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/email_preference"
+        android:title="@string/email_preference_category">
+        <Preference
+            android:icon="@drawable/password"
+            android:key="@string/change_password_preference"
+            android:title="@string/change_password_title" />
+
+        <EditTextPreference
+            android:dialogTitle="@string/update_name_dialog_title"
+            android:icon="@drawable/user_name"
+            android:inputType="text"
+            android:key="@string/update_name_preference"
+            android:summary="@string/update_name_summary"
+            android:title="@string/update_name_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/allergen_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/tree" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/allergen_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            tools:text="Some allergen" />
+
+        <TextView
+            android:id="@+id/current_forecast_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current level" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/current_forecast_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/low_level" />
+
+    <ImageView
+        android:id="@+id/tomorrow_forecast_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/nothing_level" />
+
+    <TextView
+        android:id="@+id/allergen_concentration"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/nothing_level"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities_entries">
+        <item>@string/Moscow</item>
+        <item>@string/NN</item>
+    </string-array>
+
+    <string-array name="cities">
+        <item>Moscow</item>
+        <item>NN</item>
+    </string-array>
+
+    <string-array name="allergens_entries">
+        <item>@string/general_background_cereal</item>
+
+        <item>@string/general_level_spore</item>
+        <item>@string/cladosporium</item>
+        <item>@string/alternaria</item>
+
+        <item>@string/general_background_tree</item>
+        <item>@string/alder</item>
+        <item>@string/poplar</item>
+        <item>@string/hazel</item>
+        <item>@string/birch</item>
+        <item>@string/pine</item>
+        <item>@string/spruce</item>
+        <item>@string/elm</item>
+        <item>@string/linden</item>
+        <item>@string/maple</item>
+        <item>@string/ash</item>
+        <item>@string/willow</item>
+        <item>@string/oak</item>
+
+        <item>@string/general_background_weed</item>
+        <item>@string/sagebrush</item>
+        <item>@string/nettle</item>
+        <item>@string/plantain</item>
+        <item>@string/sorrel</item>
+        <item>@string/raqweed</item>
+        <item>@string/quinoa</item>
+
+    </string-array>
+
+    <string-array name="allergens">
+        <item>Общий фон Cereal</item>
+
+        <item>Общий уровень</item>
+        <item>Кладоспориум</item>
+        <item>Альтернария</item>
+
+        <item>Общий фон Tree</item>
+        <item>Ольха</item>
+        <item>Тополь</item>
+        <item>Орешник</item>
+        <item>Берёза</item>
+        <item>Сосна</item>
+        <item>Ель</item>
+        <item>Вяз</item>
+        <item>Липа</item>
+        <item>Клён</item>
+        <item>Ясень</item>
+        <item>Ива</item>
+        <item>Дуб</item>
+
+        <item>Общий фон Weed</item>
+        <item>Полынь</item>
+        <item>Крапива</item>
+        <item>Подорожник</item>
+        <item>Щавель</item>
+        <item>Амброзия</item>
+        <item>Маревые</item>
+    </string-array>
+    <string name="general_level_spore">Spore general level</string>
+</resources>
