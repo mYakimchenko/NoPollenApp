@@ -20,6 +20,8 @@ It's use information from two web-resources [allergotop.com](http://allergotop.c
 
 
 ## TODO
+ - [ ] clean architecture
+ - [ ] RxJava
  - [ ] viewing previous data of pollen forecast for selected allergen
  - [ ] phone number authentication
  - [ ] photo support for chat messages
