@@ -20,13 +20,13 @@
 package com.mihanjk.nopollenapp.di.components;
 
 
-import com.mihanjk.nopollenapp.data.services.NotificationService;
+import com.mihanjk.nopollenapp.data.repository.datasources.NotificationDataSource;
 import com.mihanjk.nopollenapp.di.modules.UserModule;
 import com.mihanjk.nopollenapp.di.scope.UserScope;
-import com.mihanjk.nopollenapp.presentation.forecast.ForecastPresenter;
-import com.mihanjk.nopollenapp.presentation.main.MainPresenter;
-import com.mihanjk.nopollenapp.presentation.message.MessagePresenter;
-import com.mihanjk.nopollenapp.presentation.settings.SettingsPresenter;
+import com.mihanjk.nopollenapp.presentation.forecast.presenter.ForecastPresenter;
+import com.mihanjk.nopollenapp.presentation.main.presenter.MainPresenter;
+import com.mihanjk.nopollenapp.presentation.message.presenter.MessagePresenter;
+import com.mihanjk.nopollenapp.presentation.settings.presenter.SettingsPresenter;
 
 import dagger.Subcomponent;
 
@@ -41,5 +41,5 @@ public interface UserComponent {
 
     void inject(ForecastPresenter forecastPresenter);
 
-    void inject(NotificationService notificationService);
+    void inject(NotificationDataSource notificationDataSource);
 }

@@ -22,12 +22,14 @@ package com.mihanjk.nopollenapp;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.mihanjk.nopollenapp.data.models.User;
+import com.mihanjk.nopollenapp.data.entity.User;
 import com.mihanjk.nopollenapp.di.components.AppComponent;
 import com.mihanjk.nopollenapp.di.components.DaggerAppComponent;
 import com.mihanjk.nopollenapp.di.components.UserComponent;
@@ -44,6 +46,8 @@ import io.flowup.FlowUp;
 public class NoPollenApplication extends android.app.Application {
     private static AppComponent appComponent;
     private static UserComponent userComponent;
+    private static ConnectivityManager connectivityManager;
+
 
     public static AppComponent getAppComponent() {
         return appComponent;
@@ -62,6 +66,12 @@ public class NoPollenApplication extends android.app.Application {
         userComponent = null;
     }
 
+    // TODO: 7/20/2017 where is this must be?
+    public static boolean isOffline() {
+        NetworkInfo netInfo = connectivityManager.getActiveNetworkInfo();
+        return netInfo == null || !netInfo.isConnected();
+    }
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -69,6 +79,7 @@ public class NoPollenApplication extends android.app.Application {
         Twitter.initialize(this);
 
         appComponent = buildAppComponent();
+        connectivityManager = (ConnectivityManager) getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
         initializeDrawImageLoader();
 
         initializeFlowUp();

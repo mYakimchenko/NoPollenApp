@@ -22,7 +22,7 @@ package com.mihanjk.nopollenapp.di.modules;
 
 import android.content.Context;
 
-import com.mihanjk.nopollenapp.data.services.PreferencesService;
+import com.mihanjk.nopollenapp.data.repository.datasources.PreferencesDataSource;
 
 import javax.inject.Singleton;
 
@@ -33,7 +33,7 @@ import dagger.Provides;
 public class PreferenceModule {
     @Provides
     @Singleton
-    PreferencesService providePrefecenceService(Context context) {
-        return new PreferencesService(context);
+    PreferencesDataSource providePrefecenceService(Context context) {
+        return new PreferencesDataSource(context);
     }
 }

@@ -3,7 +3,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:applicationContext="com.mihanjk.nopollenapp.presentation.main.MainActivity">
+    tools:applicationContext="com.mihanjk.nopollenapp.presentation.main.view.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

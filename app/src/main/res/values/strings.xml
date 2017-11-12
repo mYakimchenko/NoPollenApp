@@ -110,4 +110,9 @@
     <string name="anonymous">Anonymous</string>
     <string name="no_allergens">Low level or no pollen in air. Have a nice day!</string>
     <string name="logo_description">No Pollen logo image</string>
+    <string name="password_updated">Password updated</string>
+    <string name="name_updated">Name updated</string>
+    <string name="empty_name_message">Can\'t set empty name</string>
+    <string name="city_updated">City updated</string>
+    <string name="allergens_updated">Allergens updated</string>
 </resources>

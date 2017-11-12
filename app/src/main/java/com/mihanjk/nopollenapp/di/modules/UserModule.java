@@ -20,7 +20,7 @@
 package com.mihanjk.nopollenapp.di.modules;
 
 
-import com.mihanjk.nopollenapp.data.models.User;
+import com.mihanjk.nopollenapp.data.entity.User;
 import com.mihanjk.nopollenapp.di.scope.UserScope;
 
 import dagger.Module;

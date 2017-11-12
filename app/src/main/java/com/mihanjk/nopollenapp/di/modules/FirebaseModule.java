@@ -22,8 +22,8 @@ package com.mihanjk.nopollenapp.di.modules;
 
 import android.content.Context;
 
-import com.mihanjk.nopollenapp.data.services.DatabaseService;
-import com.mihanjk.nopollenapp.data.services.UserService;
+import com.mihanjk.nopollenapp.data.repository.datasources.DatabaseDataSource;
+import com.mihanjk.nopollenapp.data.repository.datasources.UserDataSource;
 
 import javax.inject.Singleton;
 
@@ -34,13 +34,13 @@ import dagger.Provides;
 public class FirebaseModule {
     @Provides
     @Singleton
-    UserService provideFirebaseUserService(Context context) {
-        return new UserService(context);
+    UserDataSource provideFirebaseUserService(Context context) {
+        return new UserDataSource(context);
     }
 
     @Provides
     @Singleton
-    DatabaseService provideDatabaseService() {
-        return new DatabaseService();
+    DatabaseDataSource provideDatabaseService() {
+        return new DatabaseDataSource();
     }
 }

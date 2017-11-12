@@ -21,7 +21,6 @@ package com.mihanjk.nopollenapp.di.modules;
 
 
 import android.content.Context;
-import android.net.ConnectivityManager;
 
 import javax.inject.Singleton;
 
@@ -42,9 +41,9 @@ public class AppModule {
         return appContext;
     }
 
-    @Provides
-    @Singleton
-    ConnectivityManager provideConnectivityManager() {
-        return (ConnectivityManager) appContext.getSystemService(Context.CONNECTIVITY_SERVICE);
-    }
+//    @Provides
+//    @Singleton
+//    ConnectivityManager provideConnectivityManager() {
+//        return (ConnectivityManager) appContext.getSystemService(Context.CONNECTIVITY_SERVICE);
+//    }
 }

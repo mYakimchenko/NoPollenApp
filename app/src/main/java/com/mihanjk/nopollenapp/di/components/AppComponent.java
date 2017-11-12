@@ -20,14 +20,14 @@
 package com.mihanjk.nopollenapp.di.components;
 
 
-import com.mihanjk.nopollenapp.data.services.DatabaseService;
+import com.mihanjk.nopollenapp.data.repository.datasources.DatabaseDataSource;
 import com.mihanjk.nopollenapp.di.modules.AppModule;
 import com.mihanjk.nopollenapp.di.modules.FirebaseModule;
 import com.mihanjk.nopollenapp.di.modules.PreferenceModule;
 import com.mihanjk.nopollenapp.di.modules.UserModule;
-import com.mihanjk.nopollenapp.presentation.chat.ChatPresenter;
-import com.mihanjk.nopollenapp.presentation.login.LoginPresenter;
-import com.mihanjk.nopollenapp.presentation.splash.SplashPresenter;
+import com.mihanjk.nopollenapp.presentation.chat.presenter.ChatPresenter;
+import com.mihanjk.nopollenapp.presentation.login.presenter.LoginPresenter;
+import com.mihanjk.nopollenapp.presentation.splash.presenter.SplashPresenter;
 
 import javax.inject.Singleton;
 
@@ -42,8 +42,7 @@ public interface AppComponent {
 
     void inject(SplashPresenter splashPresenter);
 
-    // TODO: why i use it?
-    void inject(DatabaseService databaseService);
+    void inject(DatabaseDataSource databaseDataSource);
 
     void inject(ChatPresenter chatPresenter);
 
